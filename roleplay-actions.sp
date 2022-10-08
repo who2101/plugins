@@ -54,7 +54,7 @@ public Action CMD_CHOICE(int client, int args)
 
 			int target = FindTarget(client, arg, true, false);
 
-			if(target && target != client) PrintToChatAll(client, "[%N] %N is %s with %i% percent", client, target, arg2, GetRandomInt(1, 100));
+			if(client != target) PrintToChatAll(client, "[%N] %N is %s with %i percent", client, target, arg2, GetRandomInt(1, 100));
 			else PrintToChat(client, "[Сервер] Выбранный игрок не найден!");
 		}		
 	}
