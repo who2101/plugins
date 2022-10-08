@@ -13,7 +13,7 @@
 public Plugin myinfo =
 {
 	name = "[Shop] Zone Credits",
-	author = "Tonki_Ton",
+	author = "Tonki_Ton + who",
 	version = "1.4.0",
 	url = "https://hlmod.ru"
 };
