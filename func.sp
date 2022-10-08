@@ -24,7 +24,9 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_donate", CMD_DONATE);	
 	RegConsoleCmd("sm_rules", CMD_RULES);
 }
+
 /*
+// TODO: Добавить возможность использовать !ртв / !hnd
 public Action OnClientSayCommand(int client, const char[] command, const char[] sArgs)
 {
 	if(StrEqual(command, "!ртв") || StrEqual(command, "!hnd"))
@@ -33,6 +35,7 @@ public Action OnClientSayCommand(int client, const char[] command, const char[] 
 	}
 }
 */
+
 public void OnMapStart()
 {
 	GetCurrentMap(g_CurrentMap, sizeof(g_CurrentMap));
