@@ -1,9 +1,9 @@
-#pragma semicolon 1
-
 #include <sourcemod>
 
+#pragma semicolon 1
 #pragma newdecls required
 
+//  delay for anti spam with plugin commands
 #define DELAY 5.0
 
 Handle gh_Timer[MAXPLAYERS+1];
