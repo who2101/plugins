@@ -1,3 +1,5 @@
+// Он не работает || He doesn't works
+
 #pragma semicolon 1
 
 #include <sourcemod>
